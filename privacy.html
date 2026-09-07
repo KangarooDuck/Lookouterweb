@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — FriedRich AC Remote | Lookouter</title>
+  <meta name="description" content="Privacy policy for FriedRich AC Remote, an Android app by Lookouter that turns your phone into a Friedrich air-conditioner remote." />
+
+  <link rel="icon" type="image/png" href="favicon-32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .privacy {
+      padding: 72px 0 96px;
+    }
+    .privacy h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .privacy .updated {
+      color: var(--muted);
+      margin: 0 0 40px;
+    }
+    .privacy h2 {
+      font-size: 1.35rem;
+      margin: 36px 0 10px;
+      letter-spacing: -0.01em;
+    }
+    .privacy p,
+    .privacy li {
+      color: var(--muted);
+      max-width: 720px;
+    }
+    .privacy ul {
+      padding-left: 22px;
+    }
+    .privacy a {
+      color: var(--accent-3);
+    }
+    .privacy .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px;
+    }
+    @media (max-width: 680px) {
+      .privacy .card {
+        padding: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Lookouter</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/#apps">Apps</a>
+        <a href="/#about">About</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="privacy">
+      <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="updated">FriedRich AC Remote &middot; Last updated: September 7, 2026</p>
+
+        <div class="card">
+          <p>
+            FriedRich AC Remote (the &ldquo;app&rdquo;) is developed by Lookouter.
+            This policy describes what information the app collects and how it is used.
+            In short: <strong>the app does not collect any data at all.</strong>
+          </p>
+
+          <h2>Information We Collect</h2>
+          <p>
+            The app does not collect, store, transmit, or process any personal information
+            or any other data. There are no user accounts, no analytics, no advertising,
+            and no tracking of any kind.
+          </p>
+
+          <h2>How the App Works</h2>
+          <p>
+            The app uses your device&rsquo;s built-in infrared (IR) transmitter to send
+            signals to your Friedrich air conditioner. Everything happens locally on your
+            device. The app does not connect to the internet.
+          </p>
+
+          <h2>Permissions</h2>
+          <p>
+            The only capability the app uses is your device&rsquo;s IR transmitter
+            (the <code>TRANSMIT_IR</code> permission). It does not request camera,
+            location, microphone, contacts, storage, or network access.
+          </p>
+
+          <h2>Data Sharing</h2>
+          <p>
+            Because the app collects no data, it shares nothing with third parties.
+            We do not sell, rent, or disclose any information about you or your device.
+          </p>
+
+          <h2>Children&rsquo;s Privacy</h2>
+          <p>
+            The app does not collect information from anyone, including children under 13.
+          </p>
+
+          <h2>Changes to This Policy</h2>
+          <p>
+            If this policy changes in the future, the updated version will be posted on
+            this page with a revised &ldquo;Last updated&rdquo; date.
+          </p>
+
+          <h2>Contact</h2>
+          <p>
+            If you have questions about this policy, contact us at
+            <a href="mailto:info@lookouter.com">info@lookouter.com</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Lookouter. All rights reserved.</p>
+      <p class="footer-domain">lookouter.com</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
